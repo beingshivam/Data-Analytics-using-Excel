@@ -1,0 +1,24 @@
+COUNT(value1[, value2, ...])	-> Counts numbers
+COUNTA(value1[, value2, ...])	-> Counts non-empty cells
+COUNTBLANK(value1[, value2, ...])	-> Counts empty cells
+COUNTIF(range, criteria)	-> Counts the cells in a range that match the criteria
+COUNTIFS(range1, criteria1[, range2, criteria2, ...])	-> Counts the cells in multiple ranges that match multiple criteria
+PERMUT(number, number_chosen)	-> Counts the permutations
+COMBIN(number, number_chosen)	-> Counts the combinations
+SUM(number1[, number2, ...])	-> Calculates the sum
+SUMIF(range, criteria[, average_range])	-> Calculates the sum of the cells that match the criteria
+SUMIFS(average_range, range1, criteria1[, range2, criteria2...]) -> Calculates the sum of cells in multiple ranges that match multiple criteria
+AVERAGE(number1[, number2, ...])	-> Calculates the arithmetic mean
+AVERAGEIF(range, criteria[, average_range])	-> Calculates the mean of the cells that match the criteria
+AVERAGEIFS(average_range, range1, criteria1[, range2, criteria2...])	-> Calculates the mean of cells in multiple ranges that match multiple criteria
+MEDIAN(number1[, number2, ...])	-> Calculates the median (middle) value
+MODE(number1[, number2, ...])	-> Calculates the mode (most common) value
+RANK.EQ(number, ref[, order])	-> Returns an item’s rank relative to the other items in a data set
+LARGE(array, k)	-> Returns the kth largest item in a data set
+SMALL(array, k)	-> Returns the kth smallest item in a data set
+FREQUENCY(data_array, bins_array)	-> Creates a grouped frequency distribution
+VAR.S(number1[, number2, ...])	-> Calculates the variance of a sample
+VAR.P(number1[, number2, ...])	-> Calculates the variance of a population
+STDEV.S(number1[, number2, ...])	-> Calculates the standard deviation of a sample
+STDEV.P(number1[, number2, ...])	-> Calculates the standard deviation of a population
+CORREL(array1, array2)	-> Calculates the correlation between two data sets
